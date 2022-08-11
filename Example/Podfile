@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MCBaseUtils_Example' do
+  pod 'MCBaseUtils', :path => '../'
+
+  target 'MCBaseUtils_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
