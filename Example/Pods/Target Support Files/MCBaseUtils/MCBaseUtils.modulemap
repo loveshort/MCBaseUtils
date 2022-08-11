@@ -1,0 +1,6 @@
+framework module MCBaseUtils {
+  umbrella header "MCBaseUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
