@@ -4,7 +4,15 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MCBaseUtils (0.1.0)
+  - MCBaseUtils (0.2.0):
+    - MCBaseUtils/MCCategory (= 0.2.0)
+    - MCBaseUtils/MCMacro (= 0.2.0)
+  - MCBaseUtils/MCCategory (0.2.0):
+    - MCBaseUtils/MCCategory/MCFoundation (= 0.2.0)
+    - MCBaseUtils/MCCategory/MCKit (= 0.2.0)
+  - MCBaseUtils/MCCategory/MCFoundation (0.2.0)
+  - MCBaseUtils/MCCategory/MCKit (0.2.0)
+  - MCBaseUtils/MCMacro (0.2.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +28,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MCBaseUtils: 039bede9166c3b0c65b9428cd4b06bd39759308f
+  MCBaseUtils: bbb40e8fceb67d230734dee4e2d0c66854405a90
 
 PODFILE CHECKSUM: 72ac860bc3bceda26427d0650cb1170f8187370a
 

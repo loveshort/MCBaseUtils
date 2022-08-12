@@ -1,17 +1,35 @@
 //
 //  MCBaseUtils.h
-//  MCBaseUtils_Example
+//  MCBaseUtils
 //
 //  Created by mxx on 2022/8/12.
 //  Copyright © 2022 mxx. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef MCBaseUtils_h
+#define MCBaseUtils_h
 
-NS_ASSUME_NONNULL_BEGIN
 
-@interface MCBaseUtils : NSObject
 
-@end
+#ifdef __OBJC__
 
-NS_ASSUME_NONNULL_END
+
+/* 宏定义 */
+
+#import "MCMacro.h"
+#import "MCDEBug.h"
+#import "MCCheckNullObj.h"
+#import "MCMarcroObj.h"
+#import "MCLocalData.h"
+#import "MCAddPropertyCategory.h"
+#import "MCStringWeak.h"
+#import "MCColorMacro.h"
+
+/*  分类  */
+
+#import "MCCategory.h"
+
+
+#endif
+
+#endif /* MCBaseUtils_h */

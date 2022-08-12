@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MCBaseUtils'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'MCBaseUtils.'
 
 # This description is used to generate tags and improve search results.
@@ -37,9 +37,20 @@ TODO: 第一版，上传到spec里面，后面开始加载代码内容
 
   s.source_files = 'MCBaseUtils/Classes/**/*'
   
- # s.subspec "Fu" do |ss|
- #   ss.dependency = ""
- # end
+  s.subspec 'MCMacro' do |mcmacro|
+     mcmacro.source_files = 'MCBaseUtils/Classes/MCCategory/MCMacro/*.h'
+  end
+  
+  s.subspec 'MCCategory' do |mccategory|
+      mccategory.public_header_files = 'MCBaseUtils/Classes/MCCategory/MCCategory.h'
+      mccategory.frameworks = 'UIKit','Foundation'
+      mccategory.subspec 'MCKit' do |mckit|
+        mckit.source_files = 'MCBaseUtils/Classes/MCCategory/MCKit/*.{h,m}'
+      end
+      mccategory.subspec 'MCFoundation' do |mcfoundation|
+        mcfoundation.source_files = 'MCBaseUtils/Classes/MCCategory/MCFoundation/*.{h,m}'
+      end
+  end
  
   # s.resource_bundles = {
   #   'MCBaseUtils' => ['MCBaseUtils/Assets/*.png']

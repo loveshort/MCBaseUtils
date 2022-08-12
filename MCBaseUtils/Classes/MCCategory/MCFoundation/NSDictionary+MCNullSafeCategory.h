@@ -1,5 +1,5 @@
 //
-//  MCTestBaseUtils.h
+//  NSDictionary+MCNullSafeCategory.h
 //  MCBaseUtils_Example
 //
 //  Created by mxx on 2022/8/12.
@@ -8,9 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MCTestBaseUtils : NSObject
+@interface NSDictionary (MCNullSafeCategory)
+
+- (NSString *)mc_stringForKey:(id)key;
 
 @end
 
