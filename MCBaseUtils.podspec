@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MCBaseUtils'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'MCBaseUtils.'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ TODO: 第一版，上传到spec里面，后面开始加载代码内容
   s.source_files = 'MCBaseUtils/Classes/**/*'
   
   s.subspec 'MCMacro' do |mcmacro|
-     mcmacro.source_files = 'MCBaseUtils/Classes/MCCategory/MCMacro/*.h'
+     mcmacro.source_files = 'MCBaseUtils/Classes/MCMacro/*.h'
   end
   
   s.subspec 'MCCategory' do |mccategory|

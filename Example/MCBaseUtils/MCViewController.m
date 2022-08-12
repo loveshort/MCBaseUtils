@@ -8,6 +8,8 @@
 
 #import "MCViewController.h"
 
+#import <MCBaseUtils/MCBaseUtils.h>
+
 @interface MCViewController ()
 
 @end
@@ -18,6 +20,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    NSDictionary * dict = @{@"key":@"value"};
+    
+    DLog(@"%@",[dict mc_stringForKey:@"key"]);
+    
+    
+    
+    
+    
+    
 }
 
 @end

@@ -28,11 +28,9 @@
 - (UIViewController *)mc_currentViewController {
     UIViewController *currentViewController = [self mc_topMostController];
     
-    while ([currentViewController isKindOfClass:[UINavigationController class]] && [(UINavigationController *)currentViewController topViewController]) {
+    while ([currentViewController isKindOfClass:[UINavigationController class]] && [(UINavigationController *)currentViewController topViewController])
         currentViewController = [(UINavigationController *)currentViewController topViewController];
         return currentViewController;
-    }
-    
 }
 
 
