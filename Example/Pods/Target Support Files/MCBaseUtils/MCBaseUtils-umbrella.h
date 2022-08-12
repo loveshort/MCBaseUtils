@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "MCTestBaseUtils.h"
+#import "MCBaseUtils.h"
 
 FOUNDATION_EXPORT double MCBaseUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char MCBaseUtilsVersionString[];
