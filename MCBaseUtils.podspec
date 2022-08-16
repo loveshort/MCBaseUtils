@@ -37,25 +37,25 @@ TODO: 第一版，上传到spec里面，后面开始加载代码内容
 
   s.source_files = 'MCBaseUtils/Classes/**/*'
   
-  s.subspec 'MCScreenHeight' do |mcscreenheight|
-      mcscreenheight.source_files = 'MCBaseUtils/Classes/MCScreenHeight/*.{h,m}'
-  end
-  
-  s.subspec 'MCTabBar' do |mctabbar|
-      mctabbar.source_files = 'MCBaseUtils/Classes/MCTabBar/*.{h,m}'
-  end
-  
-  s.subspec 'MCObject' do |mcobject|
-      mcobject.source_files = 'MCBaseUtils/Classes/MCObject/*.{h,m}'
-  end
-  
-  s.subspec 'MCEmptyView' do |mcemptyview|
-     mcemptyview.source_files = 'MCBaseUtils/Classes/MCEmptyView/*.{h,m}'
-  end
-  
-  s.subspec 'MCView' do |mcview|
-     mcview.source_files = 'MCBaseUtils/Classes/MCView/*.{h,m}'
-  end
+#  s.subspec 'MCScreenHeight' do |mcscreenheight|
+#      mcscreenheight.source_files = 'MCBaseUtils/Classes/MCScreenHeight/*.{h,m}'
+#  end
+#  
+#  s.subspec 'MCTabBar' do |mctabbar|
+#      mctabbar.source_files = 'MCBaseUtils/Classes/MCTabBar/*.{h,m}'
+#  end
+#  
+#  s.subspec 'MCObject' do |mcobject|
+#      mcobject.source_files = 'MCBaseUtils/Classes/MCObject/*.{h,m}'
+#  end
+#  
+#  s.subspec 'MCEmptyView' do |mcemptyview|
+#     mcemptyview.source_files = 'MCBaseUtils/Classes/MCEmptyView/*.{h,m}'
+#  end
+#  
+#  s.subspec 'MCView' do |mcview|
+#     mcview.source_files = 'MCBaseUtils/Classes/MCView/*.{h,m}'
+#  end
   
   s.subspec 'MCMacro' do |mcmacro|
      mcmacro.source_files = 'MCBaseUtils/Classes/MCMacro/*.h'
