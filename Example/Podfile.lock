@@ -1,18 +1,75 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - DZNEmptyDataSet (1.8.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MCBaseUtils (0.2.1):
-    - MCBaseUtils/MCCategory (= 0.2.1)
-    - MCBaseUtils/MCMacro (= 0.2.1)
-  - MCBaseUtils/MCCategory (0.2.1):
-    - MCBaseUtils/MCCategory/MCFoundation (= 0.2.1)
-    - MCBaseUtils/MCCategory/MCKit (= 0.2.1)
-  - MCBaseUtils/MCCategory/MCFoundation (0.2.1)
-  - MCBaseUtils/MCCategory/MCKit (0.2.1)
-  - MCBaseUtils/MCMacro (0.2.1)
+  - MCBaseUtils (0.3.3):
+    - AFNetworking
+    - DZNEmptyDataSet
+    - MCBaseUtils/MCCategory (= 0.3.3)
+    - MCBaseUtils/MCEmptyView (= 0.3.3)
+    - MCBaseUtils/MCMacro (= 0.3.3)
+    - MCBaseUtils/MCObject (= 0.3.3)
+    - MCBaseUtils/MCScreenHeight (= 0.3.3)
+    - MCBaseUtils/MCTabBar (= 0.3.3)
+    - MCBaseUtils/MCView (= 0.3.3)
+    - MJRefresh
+  - MCBaseUtils/MCCategory (0.3.3):
+    - AFNetworking
+    - DZNEmptyDataSet
+    - MCBaseUtils/MCCategory/MCFoundation (= 0.3.3)
+    - MCBaseUtils/MCCategory/MCKit (= 0.3.3)
+    - MJRefresh
+  - MCBaseUtils/MCCategory/MCFoundation (0.3.3):
+    - AFNetworking
+    - DZNEmptyDataSet
+    - MJRefresh
+  - MCBaseUtils/MCCategory/MCKit (0.3.3):
+    - AFNetworking
+    - DZNEmptyDataSet
+    - MJRefresh
+  - MCBaseUtils/MCEmptyView (0.3.3):
+    - AFNetworking
+    - DZNEmptyDataSet
+    - MJRefresh
+  - MCBaseUtils/MCMacro (0.3.3):
+    - AFNetworking
+    - DZNEmptyDataSet
+    - MJRefresh
+  - MCBaseUtils/MCObject (0.3.3):
+    - AFNetworking
+    - DZNEmptyDataSet
+    - MJRefresh
+  - MCBaseUtils/MCScreenHeight (0.3.3):
+    - AFNetworking
+    - DZNEmptyDataSet
+    - MJRefresh
+  - MCBaseUtils/MCTabBar (0.3.3):
+    - AFNetworking
+    - DZNEmptyDataSet
+    - MJRefresh
+  - MCBaseUtils/MCView (0.3.3):
+    - AFNetworking
+    - DZNEmptyDataSet
+    - MJRefresh
+  - MJRefresh (3.7.5)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,15 +77,21 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - DZNEmptyDataSet
     - FBSnapshotTestCase
+    - MJRefresh
 
 EXTERNAL SOURCES:
   MCBaseUtils:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MCBaseUtils: e687bb531f9be626b115f271d545219ff0f272c2
+  MCBaseUtils: c0fc82cf25b4a69e346f0ad5da3ec926dca6014a
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
 
 PODFILE CHECKSUM: 72ac860bc3bceda26427d0650cb1170f8187370a
 

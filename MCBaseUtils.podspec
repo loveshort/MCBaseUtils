@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MCBaseUtils'
-  s.version          = '0.2.1'
+  s.version          = '0.3.3'
   s.summary          = 'MCBaseUtils.'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,26 @@ TODO: 第一版，上传到spec里面，后面开始加载代码内容
 
   s.source_files = 'MCBaseUtils/Classes/**/*'
   
+  s.subspec 'MCScreenHeight' do |mcscreenheight|
+      mcscreenheight.source_files = 'MCBaseUtils/Classes/MCScreenHeight/*.{h,m}'
+  end
+  
+  s.subspec 'MCTabBar' do |mctabbar|
+      mctabbar.source_files = 'MCBaseUtils/Classes/MCTabBar/*.{h,m}'
+  end
+  
+  s.subspec 'MCObject' do |mcobject|
+      mcobject.source_files = 'MCBaseUtils/Classes/MCObject/*.{h,m}'
+  end
+  
+  s.subspec 'MCEmptyView' do |mcemptyview|
+     mcemptyview.source_files = 'MCBaseUtils/Classes/MCEmptyView/*.{h,m}'
+  end
+  
+  s.subspec 'MCView' do |mcview|
+     mcview.source_files = 'MCBaseUtils/Classes/MCView/*.{h,m}'
+  end
+  
   s.subspec 'MCMacro' do |mcmacro|
      mcmacro.source_files = 'MCBaseUtils/Classes/MCMacro/*.h'
   end
@@ -58,5 +78,8 @@ TODO: 第一版，上传到spec里面，后面开始加载代码内容
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'MJRefresh'
+    s.dependency 'DZNEmptyDataSet'
+   # s.dependency 'TABAnimated'
+    s.dependency 'AFNetworking'
 end
