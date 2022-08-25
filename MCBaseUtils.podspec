@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MCBaseUtils'
-  s.version          = '0.3.5'
+  s.version          = '5.0.0'
   s.summary          = 'MCBaseUtils.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: 第一版，上传到spec里面，后面开始加载代码内容
+TODO: Swift版本 第一版，上传到spec里面，后面开始加载代码内容
       第二版，准备上传一些宏定义的内容
       第三版，准备一下扩展内容
       第四版，准备上传一些小组件
@@ -57,14 +57,14 @@ TODO: 第一版，上传到spec里面，后面开始加载代码内容
 #     mcview.source_files = 'MCBaseUtils/Classes/MCView/*.{h,m}'
 #  end
   
-  s.subspec 'MCMacro' do |mcmacro|
-     mcmacro.source_files = 'MCBaseUtils/Classes/MCMacro/*.h'
-  end
+ # s.subspec 'MCMacro' do |mcmacro|
+ #    mcmacro.source_files = 'MCBaseUtils/Classes/MCMacro/*.h'
+#  end
   
-  s.subspec 'MCCategory' do |mccategory|
+#  s.subspec 'MCCategory' do |mccategory|
     #  mccategory.public_header_files = 'MCBaseUtils/Classes/MCCategory/MCCategory.h'
       
-      mccategory.frameworks = 'UIKit','Foundation'
+    # mccategory.frameworks = 'UIKit','Foundation'
       
 #      mccategory.subspec 'MCKit' do |mckit|
 #        mckit.source_files = 'MCBaseUtils/Classes/MCCategory/MCKit/*.{h,m}'
@@ -81,8 +81,8 @@ TODO: 第一版，上传到spec里面，后面开始加载代码内容
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-    s.dependency 'MJRefresh'
-    s.dependency 'DZNEmptyDataSet'
+   # s.dependency 'MJRefresh'
+   # s.dependency 'DZNEmptyDataSet'
    # s.dependency 'TABAnimated'
-    s.dependency 'AFNetworking'
+   # s.dependency 'AFNetworking'
 end

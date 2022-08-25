@@ -1,8 +1,6 @@
 use_frameworks!
 
-platform :ios, '13.0'
-
-source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
 
 target 'MCBaseUtils_Example' do
   pod 'MCBaseUtils', :path => '../'
@@ -10,6 +8,6 @@ target 'MCBaseUtils_Example' do
   target 'MCBaseUtils_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+    
   end
 end

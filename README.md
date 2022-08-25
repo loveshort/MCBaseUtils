@@ -1,6 +1,6 @@
 # MCBaseUtils
 
-[![CI Status](https://img.shields.io/travis/mxx/MCBaseUtils.svg?style=flat)](https://travis-ci.org/mxx/MCBaseUtils)
+[![CI Status](https://img.shields.io/travis/271901088@qq.com/MCBaseUtils.svg?style=flat)](https://travis-ci.org/271901088@qq.com/MCBaseUtils)
 [![Version](https://img.shields.io/cocoapods/v/MCBaseUtils.svg?style=flat)](https://cocoapods.org/pods/MCBaseUtils)
 [![License](https://img.shields.io/cocoapods/l/MCBaseUtils.svg?style=flat)](https://cocoapods.org/pods/MCBaseUtils)
 [![Platform](https://img.shields.io/cocoapods/p/MCBaseUtils.svg?style=flat)](https://cocoapods.org/pods/MCBaseUtils)
@@ -22,7 +22,7 @@ pod 'MCBaseUtils'
 
 ## Author
 
-mxx, 271901088@qq.com
+271901088@qq.com, 271901088@qq.com
 
 ## License
 
