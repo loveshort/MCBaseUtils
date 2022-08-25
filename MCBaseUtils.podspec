@@ -73,7 +73,7 @@ TODO: Swift版本 第一版，上传到spec里面，后面开始加载代码内�
 #      mccategory.subspec 'MCFoundation' do |mcfoundation|
 #        mcfoundation.source_files = 'MCBaseUtils/Classes/MCCategory/MCFoundation/*.{h,m}'
 #      end
-  end
+ # end
  
   # s.resource_bundles = {
   #   'MCBaseUtils' => ['MCBaseUtils/Assets/*.png']
