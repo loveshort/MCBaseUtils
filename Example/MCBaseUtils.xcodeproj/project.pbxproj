@@ -77,7 +77,6 @@
 		B22DAA7B28AB7CC70045DF35 /* noNetwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22DAA7928AB7CC70045DF35 /* noNetwork@2x.png */; };
 		B22DAA7C28AB7CC70045DF35 /* nodata@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22DAA7A28AB7CC70045DF35 /* nodata@2x.png */; };
 		B2B8DC2828A648D800DAA7F8 /* UIWindow+MCTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B8DC2728A648D800DAA7F8 /* UIWindow+MCTopViewController.m */; };
-		B2E68F6328AC9A3900022EB4 /* MCSwiftBaseVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E68F6228AC9A3900022EB4 /* MCSwiftBaseVc.swift */; };
 		B2E68F6528AC9B7200022EB4 /* MCHomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E68F6428AC9B7200022EB4 /* MCHomeVc.swift */; };
 /* End PBXBuildFile section */
 
@@ -236,8 +235,6 @@
 		B2B8DC2628A648D800DAA7F8 /* UIWindow+MCTopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+MCTopViewController.h"; sourceTree = "<group>"; };
 		B2B8DC2728A648D800DAA7F8 /* UIWindow+MCTopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+MCTopViewController.m"; sourceTree = "<group>"; };
 		B2B8DC2B28A64CFF00DAA7F8 /* MCMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCMacro.h; sourceTree = "<group>"; };
-		B2E68F6128AC9A3900022EB4 /* MCBaseUtils_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCBaseUtils_Example-Bridging-Header.h"; sourceTree = "<group>"; };
-		B2E68F6228AC9A3900022EB4 /* MCSwiftBaseVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCSwiftBaseVc.swift; sourceTree = "<group>"; };
 		B2E68F6428AC9B7200022EB4 /* MCHomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCHomeVc.swift; sourceTree = "<group>"; };
 		BCB4C6419776972655868912 /* Pods-MCBaseUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCBaseUtils_Example.release.xcconfig"; path = "Target Support Files/Pods-MCBaseUtils_Example/Pods-MCBaseUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C52EA6F2686ADAE1FBCF076E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -588,8 +585,6 @@
 		B2E68F6028AC99C100022EB4 /* Swift-Module */ = {
 			isa = PBXGroup;
 			children = (
-				B2E68F6228AC9A3900022EB4 /* MCSwiftBaseVc.swift */,
-				B2E68F6128AC9A3900022EB4 /* MCBaseUtils_Example-Bridging-Header.h */,
 			);
 			path = "Swift-Module";
 			sourceTree = "<group>";
@@ -849,7 +844,6 @@
 				B22DAA1128AB78CB0045DF35 /* NSMutableString+MCError.m in Sources */,
 				B22DAA2028AB79DC0045DF35 /* MCEmptyView.m in Sources */,
 				B22DAA0C28AB78CB0045DF35 /* UIImageView+MCCornerRadius.m in Sources */,
-				B2E68F6328AC9A3900022EB4 /* MCSwiftBaseVc.swift in Sources */,
 				B22DAA5328AB7A0C0045DF35 /* UIView+CYLTabBarControllerExtention.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
