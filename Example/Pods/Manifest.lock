@@ -20,52 +20,27 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MCBaseUtils (0.3.3):
+  - MCBaseUtils (0.3.4):
     - AFNetworking
     - DZNEmptyDataSet
-    - MCBaseUtils/MCCategory (= 0.3.3)
-    - MCBaseUtils/MCEmptyView (= 0.3.3)
-    - MCBaseUtils/MCMacro (= 0.3.3)
-    - MCBaseUtils/MCObject (= 0.3.3)
-    - MCBaseUtils/MCScreenHeight (= 0.3.3)
-    - MCBaseUtils/MCTabBar (= 0.3.3)
-    - MCBaseUtils/MCView (= 0.3.3)
+    - MCBaseUtils/MCCategory (= 0.3.4)
+    - MCBaseUtils/MCMacro (= 0.3.4)
     - MJRefresh
-  - MCBaseUtils/MCCategory (0.3.3):
+  - MCBaseUtils/MCCategory (0.3.4):
     - AFNetworking
     - DZNEmptyDataSet
-    - MCBaseUtils/MCCategory/MCFoundation (= 0.3.3)
-    - MCBaseUtils/MCCategory/MCKit (= 0.3.3)
+    - MCBaseUtils/MCCategory/MCFoundation (= 0.3.4)
+    - MCBaseUtils/MCCategory/MCKit (= 0.3.4)
     - MJRefresh
-  - MCBaseUtils/MCCategory/MCFoundation (0.3.3):
+  - MCBaseUtils/MCCategory/MCFoundation (0.3.4):
     - AFNetworking
     - DZNEmptyDataSet
     - MJRefresh
-  - MCBaseUtils/MCCategory/MCKit (0.3.3):
+  - MCBaseUtils/MCCategory/MCKit (0.3.4):
     - AFNetworking
     - DZNEmptyDataSet
     - MJRefresh
-  - MCBaseUtils/MCEmptyView (0.3.3):
-    - AFNetworking
-    - DZNEmptyDataSet
-    - MJRefresh
-  - MCBaseUtils/MCMacro (0.3.3):
-    - AFNetworking
-    - DZNEmptyDataSet
-    - MJRefresh
-  - MCBaseUtils/MCObject (0.3.3):
-    - AFNetworking
-    - DZNEmptyDataSet
-    - MJRefresh
-  - MCBaseUtils/MCScreenHeight (0.3.3):
-    - AFNetworking
-    - DZNEmptyDataSet
-    - MJRefresh
-  - MCBaseUtils/MCTabBar (0.3.3):
-    - AFNetworking
-    - DZNEmptyDataSet
-    - MJRefresh
-  - MCBaseUtils/MCView (0.3.3):
+  - MCBaseUtils/MCMacro (0.3.4):
     - AFNetworking
     - DZNEmptyDataSet
     - MJRefresh
@@ -90,7 +65,7 @@ SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MCBaseUtils: c0fc82cf25b4a69e346f0ad5da3ec926dca6014a
+  MCBaseUtils: d94c87d2898ff4666a7a0f52d3561beb10f230e1
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
 
 PODFILE CHECKSUM: 72ac860bc3bceda26427d0650cb1170f8187370a

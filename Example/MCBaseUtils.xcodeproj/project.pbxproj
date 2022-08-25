@@ -77,6 +77,8 @@
 		B22DAA7B28AB7CC70045DF35 /* noNetwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22DAA7928AB7CC70045DF35 /* noNetwork@2x.png */; };
 		B22DAA7C28AB7CC70045DF35 /* nodata@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22DAA7A28AB7CC70045DF35 /* nodata@2x.png */; };
 		B2B8DC2828A648D800DAA7F8 /* UIWindow+MCTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B8DC2728A648D800DAA7F8 /* UIWindow+MCTopViewController.m */; };
+		B2E68F6328AC9A3900022EB4 /* MCSwiftBaseVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E68F6228AC9A3900022EB4 /* MCSwiftBaseVc.swift */; };
+		B2E68F6528AC9B7200022EB4 /* MCHomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E68F6428AC9B7200022EB4 /* MCHomeVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -234,6 +236,9 @@
 		B2B8DC2628A648D800DAA7F8 /* UIWindow+MCTopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+MCTopViewController.h"; sourceTree = "<group>"; };
 		B2B8DC2728A648D800DAA7F8 /* UIWindow+MCTopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+MCTopViewController.m"; sourceTree = "<group>"; };
 		B2B8DC2B28A64CFF00DAA7F8 /* MCMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCMacro.h; sourceTree = "<group>"; };
+		B2E68F6128AC9A3900022EB4 /* MCBaseUtils_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCBaseUtils_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		B2E68F6228AC9A3900022EB4 /* MCSwiftBaseVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCSwiftBaseVc.swift; sourceTree = "<group>"; };
+		B2E68F6428AC9B7200022EB4 /* MCHomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCHomeVc.swift; sourceTree = "<group>"; };
 		BCB4C6419776972655868912 /* Pods-MCBaseUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCBaseUtils_Example.release.xcconfig"; path = "Target Support Files/Pods-MCBaseUtils_Example/Pods-MCBaseUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C52EA6F2686ADAE1FBCF076E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DF74DB20AFCB220515CEC8A8 /* Pods-MCBaseUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCBaseUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-MCBaseUtils_Tests/Pods-MCBaseUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -308,6 +313,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MCViewController.h */,
 				6003F5A6195388D20070C39A /* MCViewController.m */,
+				B2E68F6428AC9B7200022EB4 /* MCHomeVc.swift */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -380,6 +386,7 @@
 		B2213F3D28A5E70800F27F51 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B2E68F6028AC99C100022EB4 /* Swift-Module */,
 				B22DAA7228AB7A610045DF35 /* MCScreenHeight */,
 				B22DA9DB28AB78980045DF35 /* MCTabBar */,
 				B22DA9DA28AB78840045DF35 /* MCObject */,
@@ -578,6 +585,15 @@
 			path = MCMacro;
 			sourceTree = "<group>";
 		};
+		B2E68F6028AC99C100022EB4 /* Swift-Module */ = {
+			isa = PBXGroup;
+			children = (
+				B2E68F6228AC9A3900022EB4 /* MCSwiftBaseVc.swift */,
+				B2E68F6128AC9A3900022EB4 /* MCBaseUtils_Example-Bridging-Header.h */,
+			);
+			path = "Swift-Module";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -632,6 +648,7 @@
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = KX2V626YRW;
+						LastSwiftMigration = 1340;
 					};
 					6003F5AD195388D20070C39A = {
 						DevelopmentTeam = KX2V626YRW;
@@ -819,6 +836,7 @@
 				B22DAA1F28AB79DC0045DF35 /* UIView+Empty.m in Sources */,
 				B22DAA0B28AB78CB0045DF35 /* MCCustomKVO.m in Sources */,
 				B22DAA4E28AB7A0C0045DF35 /* CYLTabBarController.m in Sources */,
+				B2E68F6528AC9B7200022EB4 /* MCHomeVc.swift in Sources */,
 				B22DAA5128AB7A0C0045DF35 /* CYLTabBar.m in Sources */,
 				B22DAA0828AB78CB0045DF35 /* UIView+MCFrame.m in Sources */,
 				B22DAA0A28AB78CB0045DF35 /* UINavigationController+MCFullScreenPopGesture.m in Sources */,
@@ -831,6 +849,7 @@
 				B22DAA1128AB78CB0045DF35 /* NSMutableString+MCError.m in Sources */,
 				B22DAA2028AB79DC0045DF35 /* MCEmptyView.m in Sources */,
 				B22DAA0C28AB78CB0045DF35 /* UIImageView+MCCornerRadius.m in Sources */,
+				B2E68F6328AC9A3900022EB4 /* MCSwiftBaseVc.swift in Sources */,
 				B22DAA5328AB7A0C0045DF35 /* UIView+CYLTabBarControllerExtention.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -999,13 +1018,17 @@
 			baseConfigurationReference = 6EAA356104D7A9A8F6A664F3 /* Pods-MCBaseUtils_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = KX2V626YRW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCBaseUtils/MCBaseUtils-Prefix.pch";
 				INFOPLIST_FILE = "MCBaseUtils/MCBaseUtils-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../MCBaseUtils/Classes/Swift-Module/MCBaseUtils_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1016,13 +1039,16 @@
 			baseConfigurationReference = BCB4C6419776972655868912 /* Pods-MCBaseUtils_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = KX2V626YRW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCBaseUtils/MCBaseUtils-Prefix.pch";
 				INFOPLIST_FILE = "MCBaseUtils/MCBaseUtils-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../MCBaseUtils/Classes/Swift-Module/MCBaseUtils_Example-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1032,6 +1058,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2515551321F6C5F46D1F9860 /* Pods-MCBaseUtils_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = KX2V626YRW;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1058,6 +1085,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF74DB20AFCB220515CEC8A8 /* Pods-MCBaseUtils_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = KX2V626YRW;
 				FRAMEWORK_SEARCH_PATHS = (

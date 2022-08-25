@@ -10,6 +10,7 @@
 
 #import <MCBaseUtils/MCBaseUtils.h>
 
+
 @interface MCViewController ()
 
 @end
@@ -26,6 +27,8 @@
     
     DLog(@"%@",[dict mc_stringForKey:@"key"]);
     
+    
+
     
     
     

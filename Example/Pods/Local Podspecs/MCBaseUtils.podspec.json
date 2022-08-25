@@ -1,6 +1,6 @@
 {
   "name": "MCBaseUtils",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "summary": "MCBaseUtils.",
   "description": "TODO: 第一版，上传到spec里面，后面开始加载代码内容\n      第二版，准备上传一些宏定义的内容\n      第三版，准备一下扩展内容\n      第四版，准备上传一些小组件\n      第五版，准备上传一些控件的\n      第六版，准备上传一些视频，上传相关的内容",
   "homepage": "https://github.com/loveshort",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/loveshort/MCBaseUtils.git",
-    "tag": "0.3.3"
+    "tag": "0.3.4"
   },
   "platforms": {
     "ios": "13.0"
@@ -31,26 +31,6 @@
     ]
   },
   "subspecs": [
-    {
-      "name": "MCScreenHeight",
-      "source_files": "MCBaseUtils/Classes/MCScreenHeight/*.{h,m}"
-    },
-    {
-      "name": "MCTabBar",
-      "source_files": "MCBaseUtils/Classes/MCTabBar/*.{h,m}"
-    },
-    {
-      "name": "MCObject",
-      "source_files": "MCBaseUtils/Classes/MCObject/*.{h,m}"
-    },
-    {
-      "name": "MCEmptyView",
-      "source_files": "MCBaseUtils/Classes/MCEmptyView/*.{h,m}"
-    },
-    {
-      "name": "MCView",
-      "source_files": "MCBaseUtils/Classes/MCView/*.{h,m}"
-    },
     {
       "name": "MCMacro",
       "source_files": "MCBaseUtils/Classes/MCMacro/*.h"
