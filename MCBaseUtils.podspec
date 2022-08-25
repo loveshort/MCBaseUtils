@@ -62,14 +62,17 @@ TODO: 第一版，上传到spec里面，后面开始加载代码内容
   end
   
   s.subspec 'MCCategory' do |mccategory|
-      mccategory.public_header_files = 'MCBaseUtils/Classes/MCCategory/MCCategory.h'
+    #  mccategory.public_header_files = 'MCBaseUtils/Classes/MCCategory/MCCategory.h'
+      
       mccategory.frameworks = 'UIKit','Foundation'
-      mccategory.subspec 'MCKit' do |mckit|
-        mckit.source_files = 'MCBaseUtils/Classes/MCCategory/MCKit/*.{h,m}'
-      end
-      mccategory.subspec 'MCFoundation' do |mcfoundation|
-        mcfoundation.source_files = 'MCBaseUtils/Classes/MCCategory/MCFoundation/*.{h,m}'
-      end
+      
+#      mccategory.subspec 'MCKit' do |mckit|
+#        mckit.source_files = 'MCBaseUtils/Classes/MCCategory/MCKit/*.{h,m}'
+#      end
+#
+#      mccategory.subspec 'MCFoundation' do |mcfoundation|
+#        mcfoundation.source_files = 'MCBaseUtils/Classes/MCCategory/MCFoundation/*.{h,m}'
+#      end
   end
  
   # s.resource_bundles = {
