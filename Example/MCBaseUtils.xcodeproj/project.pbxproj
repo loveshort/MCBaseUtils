@@ -70,14 +70,15 @@
 		B22DAA5A28AB7A0C0045DF35 /* CYLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22DAA4628AB7A0B0045DF35 /* CYLBaseNavigationController.m */; };
 		B22DAA5B28AB7A0C0045DF35 /* UITabBarItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = B22DAA4828AB7A0C0045DF35 /* UITabBarItem+CYLBadgeExtention.m */; };
 		B22DAA5C28AB7A0C0045DF35 /* UIView+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = B22DAA4928AB7A0C0045DF35 /* UIView+CYLBadgeExtention.m */; };
-		B22DAA7028AB7A550045DF35 /* MCNavigationVc.m in Sources */ = {isa = PBXBuildFile; fileRef = B22DAA6C28AB7A550045DF35 /* MCNavigationVc.m */; };
-		B22DAA7128AB7A550045DF35 /* MCCommonVc.m in Sources */ = {isa = PBXBuildFile; fileRef = B22DAA6F28AB7A550045DF35 /* MCCommonVc.m */; };
 		B22DAA7728AB7A710045DF35 /* MCCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B22DAA7528AB7A710045DF35 /* MCCustomNavigationBar.m */; };
 		B22DAA7828AB7A710045DF35 /* MCScreenHeightInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B22DAA7628AB7A710045DF35 /* MCScreenHeightInfo.m */; };
 		B22DAA7B28AB7CC70045DF35 /* noNetwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22DAA7928AB7CC70045DF35 /* noNetwork@2x.png */; };
 		B22DAA7C28AB7CC70045DF35 /* nodata@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22DAA7A28AB7CC70045DF35 /* nodata@2x.png */; };
 		B2B8DC2828A648D800DAA7F8 /* UIWindow+MCTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B8DC2728A648D800DAA7F8 /* UIWindow+MCTopViewController.m */; };
-		B2E68F6528AC9B7200022EB4 /* MCHomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E68F6428AC9B7200022EB4 /* MCHomeVc.swift */; };
+		B2E68F8028B754E100022EB4 /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E68F7D28B754E100022EB4 /* UIViewController+RTRootNavigationController.m */; };
+		B2E68F8128B754E100022EB4 /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E68F7F28B754E100022EB4 /* RTRootNavigationController.m */; };
+		B2E68F8428B7550300022EB4 /* UINavigationController+InteractivePush.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E68F8328B7550300022EB4 /* UINavigationController+InteractivePush.m */; };
+		B2E68F8A28B7557300022EB4 /* MCCommonVc.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E68F8828B7557300022EB4 /* MCCommonVc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -222,10 +223,6 @@
 		B22DAA4728AB7A0C0045DF35 /* CYLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarController.h; sourceTree = "<group>"; };
 		B22DAA4828AB7A0C0045DF35 /* UITabBarItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
 		B22DAA4928AB7A0C0045DF35 /* UIView+CYLBadgeExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CYLBadgeExtention.m"; sourceTree = "<group>"; };
-		B22DAA6C28AB7A550045DF35 /* MCNavigationVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCNavigationVc.m; sourceTree = "<group>"; };
-		B22DAA6D28AB7A550045DF35 /* MCCommonVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCommonVc.h; sourceTree = "<group>"; };
-		B22DAA6E28AB7A550045DF35 /* MCNavigationVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCNavigationVc.h; sourceTree = "<group>"; };
-		B22DAA6F28AB7A550045DF35 /* MCCommonVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCommonVc.m; sourceTree = "<group>"; };
 		B22DAA7328AB7A710045DF35 /* MCScreenHeightInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCScreenHeightInfo.h; sourceTree = "<group>"; };
 		B22DAA7428AB7A710045DF35 /* MCCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCustomNavigationBar.h; sourceTree = "<group>"; };
 		B22DAA7528AB7A710045DF35 /* MCCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCustomNavigationBar.m; sourceTree = "<group>"; };
@@ -235,7 +232,15 @@
 		B2B8DC2628A648D800DAA7F8 /* UIWindow+MCTopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+MCTopViewController.h"; sourceTree = "<group>"; };
 		B2B8DC2728A648D800DAA7F8 /* UIWindow+MCTopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+MCTopViewController.m"; sourceTree = "<group>"; };
 		B2B8DC2B28A64CFF00DAA7F8 /* MCMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCMacro.h; sourceTree = "<group>"; };
-		B2E68F6428AC9B7200022EB4 /* MCHomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCHomeVc.swift; sourceTree = "<group>"; };
+		B2E68F7B28B754E100022EB4 /* RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTRootNavigationController.h; sourceTree = "<group>"; };
+		B2E68F7C28B754E100022EB4 /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
+		B2E68F7D28B754E100022EB4 /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
+		B2E68F7E28B754E100022EB4 /* RTViewControllerAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTViewControllerAnimatedTransitioning.h; sourceTree = "<group>"; };
+		B2E68F7F28B754E100022EB4 /* RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRootNavigationController.m; sourceTree = "<group>"; };
+		B2E68F8228B7550300022EB4 /* UINavigationController+InteractivePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+InteractivePush.h"; sourceTree = "<group>"; };
+		B2E68F8328B7550300022EB4 /* UINavigationController+InteractivePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+InteractivePush.m"; sourceTree = "<group>"; };
+		B2E68F8528B7557200022EB4 /* MCCommonVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCommonVc.h; sourceTree = "<group>"; };
+		B2E68F8828B7557300022EB4 /* MCCommonVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCommonVc.m; sourceTree = "<group>"; };
 		BCB4C6419776972655868912 /* Pods-MCBaseUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCBaseUtils_Example.release.xcconfig"; path = "Target Support Files/Pods-MCBaseUtils_Example/Pods-MCBaseUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C52EA6F2686ADAE1FBCF076E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DF74DB20AFCB220515CEC8A8 /* Pods-MCBaseUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCBaseUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-MCBaseUtils_Tests/Pods-MCBaseUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -310,7 +315,6 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MCViewController.h */,
 				6003F5A6195388D20070C39A /* MCViewController.m */,
-				B2E68F6428AC9B7200022EB4 /* MCHomeVc.swift */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -383,7 +387,6 @@
 		B2213F3D28A5E70800F27F51 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B2E68F6028AC99C100022EB4 /* Swift-Module */,
 				B22DAA7228AB7A610045DF35 /* MCScreenHeight */,
 				B22DA9DB28AB78980045DF35 /* MCTabBar */,
 				B22DA9DA28AB78840045DF35 /* MCObject */,
@@ -440,10 +443,15 @@
 		B22DA9D728AB781A0045DF35 /* MCView */ = {
 			isa = PBXGroup;
 			children = (
-				B22DAA6D28AB7A550045DF35 /* MCCommonVc.h */,
-				B22DAA6F28AB7A550045DF35 /* MCCommonVc.m */,
-				B22DAA6E28AB7A550045DF35 /* MCNavigationVc.h */,
-				B22DAA6C28AB7A550045DF35 /* MCNavigationVc.m */,
+				B2E68F8528B7557200022EB4 /* MCCommonVc.h */,
+				B2E68F8828B7557300022EB4 /* MCCommonVc.m */,
+				B2E68F8228B7550300022EB4 /* UINavigationController+InteractivePush.h */,
+				B2E68F8328B7550300022EB4 /* UINavigationController+InteractivePush.m */,
+				B2E68F7B28B754E100022EB4 /* RTRootNavigationController.h */,
+				B2E68F7F28B754E100022EB4 /* RTRootNavigationController.m */,
+				B2E68F7E28B754E100022EB4 /* RTViewControllerAnimatedTransitioning.h */,
+				B2E68F7C28B754E100022EB4 /* UIViewController+RTRootNavigationController.h */,
+				B2E68F7D28B754E100022EB4 /* UIViewController+RTRootNavigationController.m */,
 			);
 			path = MCView;
 			sourceTree = "<group>";
@@ -580,13 +588,6 @@
 				B22DA9CE28A65C070045DF35 /* MCColorMacro.h */,
 			);
 			path = MCMacro;
-			sourceTree = "<group>";
-		};
-		B2E68F6028AC99C100022EB4 /* Swift-Module */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Swift-Module";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -799,7 +800,6 @@
 				B2B8DC2828A648D800DAA7F8 /* UIWindow+MCTopViewController.m in Sources */,
 				B22DAA4C28AB7A0C0045DF35 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
 				B22DAA5228AB7A0C0045DF35 /* CYLBaseViewController.m in Sources */,
-				B22DAA7128AB7A550045DF35 /* MCCommonVc.m in Sources */,
 				B22DAA5028AB7A0C0045DF35 /* CYLTabBar+CYLTabBarControllerExtention.m in Sources */,
 				B22DAA0428AB78CB0045DF35 /* NSArray+MCError.m in Sources */,
 				6003F59E195388D20070C39A /* MCAppDelegate.m in Sources */,
@@ -807,11 +807,11 @@
 				B22DAA4F28AB7A0C0045DF35 /* UIColor+CYLTabBarControllerExtention.m in Sources */,
 				B22DAA0928AB78CB0045DF35 /* UIColor+MCHex.m in Sources */,
 				B22DAA5428AB7A0C0045DF35 /* NSObject+CYLTabBarControllerExtention.m in Sources */,
-				B22DAA7028AB7A550045DF35 /* MCNavigationVc.m in Sources */,
 				B22DAA0D28AB78CB0045DF35 /* MCRuntime.m in Sources */,
 				6003F5A7195388D20070C39A /* MCViewController.m in Sources */,
 				B22DAA0328AB78CB0045DF35 /* NSMutableArray+MCError.m in Sources */,
 				B22DAA4A28AB7A0C0045DF35 /* CYLPlusButton.m in Sources */,
+				B2E68F8428B7550300022EB4 /* UINavigationController+InteractivePush.m in Sources */,
 				B22DAA5B28AB7A0C0045DF35 /* UITabBarItem+CYLBadgeExtention.m in Sources */,
 				B22DAA5728AB7A0C0045DF35 /* UIImage+CYLTabBarControllerExtention.m in Sources */,
 				B22DAA0728AB78CB0045DF35 /* UIImage+MCGradient.m in Sources */,
@@ -825,13 +825,14 @@
 				B22DAA5828AB7A0C0045DF35 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
 				B22DAA0E28AB78CB0045DF35 /* UIImage+MCFileName.m in Sources */,
 				B22DAA7728AB7A710045DF35 /* MCCustomNavigationBar.m in Sources */,
+				B2E68F8A28B7557300022EB4 /* MCCommonVc.m in Sources */,
 				B22DAA4D28AB7A0C0045DF35 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
 				B22DAA0F28AB78CB0045DF35 /* UITextField+MCInputLimit.m in Sources */,
 				B22DAA1528AB78CB0045DF35 /* NSDictionary+MCJSON.m in Sources */,
 				B22DAA1F28AB79DC0045DF35 /* UIView+Empty.m in Sources */,
 				B22DAA0B28AB78CB0045DF35 /* MCCustomKVO.m in Sources */,
 				B22DAA4E28AB7A0C0045DF35 /* CYLTabBarController.m in Sources */,
-				B2E68F6528AC9B7200022EB4 /* MCHomeVc.swift in Sources */,
+				B2E68F8128B754E100022EB4 /* RTRootNavigationController.m in Sources */,
 				B22DAA5128AB7A0C0045DF35 /* CYLTabBar.m in Sources */,
 				B22DAA0828AB78CB0045DF35 /* UIView+MCFrame.m in Sources */,
 				B22DAA0A28AB78CB0045DF35 /* UINavigationController+MCFullScreenPopGesture.m in Sources */,
@@ -840,6 +841,7 @@
 				B22DAA5928AB7A0C0045DF35 /* CAAnimation+CYLBadgeExtention.m in Sources */,
 				B2213F6028A6380000F27F51 /* NSDictionary+MCNullSafeCategory.m in Sources */,
 				B22DAA5628AB7A0C0045DF35 /* UIBarButtonItem+CYLBadgeExtention.m in Sources */,
+				B2E68F8028B754E100022EB4 /* UIViewController+RTRootNavigationController.m in Sources */,
 				B22DAA1228AB78CB0045DF35 /* UIImage+MCColor.m in Sources */,
 				B22DAA1128AB78CB0045DF35 /* NSMutableString+MCError.m in Sources */,
 				B22DAA2028AB79DC0045DF35 /* MCEmptyView.m in Sources */,
@@ -1021,7 +1023,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "../MCBaseUtils/Classes/Swift-Module/MCBaseUtils_Example-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -1042,7 +1044,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "../MCBaseUtils/Classes/Swift-Module/MCBaseUtils_Example-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1052,7 +1054,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2515551321F6C5F46D1F9860 /* Pods-MCBaseUtils_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = KX2V626YRW;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1079,7 +1080,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF74DB20AFCB220515CEC8A8 /* Pods-MCBaseUtils_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = KX2V626YRW;
 				FRAMEWORK_SEARCH_PATHS = (

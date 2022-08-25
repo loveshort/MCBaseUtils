@@ -135,8 +135,8 @@
 #import "MCCommonVc.h"
 #endif
 
-#if __has_include("MCNavigationVc.h")
-#import "MCNavigationVc.h"
+#if __has_include("RTRootNavigationController.h")
+#import "RTRootNavigationController.h"
 #endif
 
 
@@ -173,6 +173,8 @@
 #if __has_include("MCSkin.h")
 #import "MCSkin.h"
 #endif
+
+
 
 
 #endif
