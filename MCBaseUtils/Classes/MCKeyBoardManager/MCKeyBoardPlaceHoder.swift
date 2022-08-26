@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 /**
  *  键盘占位器，在键盘弹出时调整自身尺寸，保证与键盘在父试图中的投影同步
  */
@@ -31,12 +30,13 @@ open class KeyboardPlacehoder: UIView {
     private var currentKeyboardHeight: CGFloat = 0
     
     private func registerKeyboardEvents() {
+       
         let notificationCenter = NotificationCenter.default
-        notificationCenter.addObserver(self, selector: #selector(keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
-        notificationCenter.addObserver(self, selector: #selector(keyboardWillHide), name:  NSNotification.Name.UIKeyboardWillHide, object: nil)
-        notificationCenter.addObserver(self, selector: #selector(keyboardDidShow), name:  NSNotification.Name.UIKeyboardDidShow, object: nil)
-        notificationCenter.addObserver(self, selector: #selector(keyboardDidHide), name:  NSNotification.Name.UIKeyboardDidHide, object: nil)
-        notificationCenter.addObserver(self, selector: #selector(keyboardWillChangeFrame), name:  NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(keyboardWillShow), name:  UIResponder.keyboardWillShowNotification, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(keyboardDidShow), name: UIResponder.keyboardDidShowNotification, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(keyboardDidHide), name: UIResponder.keyboardDidHideNotification, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(keyboardWillChangeFrame), name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
     }
     
     @objc private func keyboardWillShow(_ notification: Notification) {
@@ -82,8 +82,8 @@ open class KeyboardPlacehoder: UIView {
         }
         
         let userInfo = notification.userInfo!
-        let timeInterval = (userInfo[UIKeyboardAnimationDurationUserInfoKey] as! NSNumber).doubleValue
-        let option = UIView.AnimationOptions(rawValue: UInt(truncating: userInfo[UIKeyboardAnimationDurationUserInfoKey] as! NSNumber))
+        let timeInterval = (userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as! NSNumber).doubleValue
+        let option = UIView.AnimationOptions(rawValue: UInt(truncating: userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as! NSNumber))
         
         let keyboardChangedHeight = currentKeyboardHeight
         currentKeyboardHeight = 0;
@@ -104,7 +104,7 @@ open class KeyboardPlacehoder: UIView {
         }
         
         let userInfo = notification.userInfo!
-        let endFrame = (userInfo[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
+        let endFrame = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
         let frameInView = superview.convert(endFrame, from: superview.window)
         let superViewHeight = superview.bounds.height
         let bottomOffset = max(0, superViewHeight - (frameInView.origin.y + frameInView.size.height))
@@ -112,8 +112,8 @@ open class KeyboardPlacehoder: UIView {
         var keyBoardHeight = superViewHeight - frameInView.origin.y - bottomOffset - bottomInset
         keyBoardHeight = max(0, keyBoardHeight)
         
-        let timeInterval = (userInfo[UIKeyboardAnimationDurationUserInfoKey] as! NSNumber).doubleValue
-        let option = UIView.AnimationOptions(rawValue: UInt(truncating: userInfo[UIKeyboardAnimationDurationUserInfoKey] as! NSNumber))
+        let timeInterval = (userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as! NSNumber).doubleValue
+        let option = UIView.AnimationOptions(rawValue: UInt(truncating: userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as! NSNumber))
         
         let keyboardChangedHeight = keyBoardHeight - currentKeyboardHeight
         currentKeyboardHeight = keyBoardHeight;

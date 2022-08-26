@@ -1,5 +1,5 @@
 PODS:
-  - MCBaseUtils (5.0.1)
+  - MCBaseUtils (5.0.2)
 
 DEPENDENCIES:
   - MCBaseUtils (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MCBaseUtils: 70b97ee362405977e01c93bdd4125c8395eb69b4
+  MCBaseUtils: 094e66e73a40a23cdf026e8b149c9b4b17ec2faa
 
 PODFILE CHECKSUM: 2a97fa5a0f546891033659272a1a5221ff134694
 
