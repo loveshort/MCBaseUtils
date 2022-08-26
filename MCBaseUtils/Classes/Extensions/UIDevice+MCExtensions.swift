@@ -46,7 +46,11 @@ public extension UIDevice {
             UIApplication.shared.canOpenURL(callURL) else {
             throw MCError.phoneCallNotSupported
         }
-        UIApplication.shared.open(callURL)
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(callURL)
+        } else {
+            // Fallback on earlier versions
+        }
     }
     
     /// 检测设备是否越狱

@@ -78,7 +78,7 @@ open class KeyboardManager {
         self.viewController = nil
         self.viewToAdjust = nil
         self.positionConstraint = nil
-        UIResponder.resignFirstResponder()
+        UIResponder().resignFirstResponder()
         keyboardStatus = .hidden
         enabled = false
     }
