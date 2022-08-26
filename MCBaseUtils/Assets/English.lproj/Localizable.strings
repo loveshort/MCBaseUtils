@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  MCBaseUtils
+
+  Created by mxx on 2022/8/26.
+  Copyright © 2022 CocoaPods. All rights reserved.
+*/
+
+"name" = "name";
