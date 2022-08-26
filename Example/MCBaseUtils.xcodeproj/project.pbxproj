@@ -79,6 +79,10 @@
 		B2E68F8128B754E100022EB4 /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E68F7F28B754E100022EB4 /* RTRootNavigationController.m */; };
 		B2E68F8428B7550300022EB4 /* UINavigationController+InteractivePush.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E68F8328B7550300022EB4 /* UINavigationController+InteractivePush.m */; };
 		B2E68F8A28B7557300022EB4 /* MCCommonVc.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E68F8828B7557300022EB4 /* MCCommonVc.m */; };
+		B2E68FE228B8BAC700022EB4 /* UIScrollView+XKEmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E68FDA28B8BAC700022EB4 /* UIScrollView+XKEmptyDataSet.m */; };
+		B2E68FE328B8BAC700022EB4 /* UIScrollView+XKEmptyConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E68FDC28B8BAC700022EB4 /* UIScrollView+XKEmptyConfig.m */; };
+		B2E68FE428B8BAC700022EB4 /* UIImage+Edit.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E68FDF28B8BAC700022EB4 /* UIImage+Edit.m */; };
+		B2E68FE528B8BAC700022EB4 /* XKEmptyPlaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E68FE128B8BAC700022EB4 /* XKEmptyPlaceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,6 +245,14 @@
 		B2E68F8328B7550300022EB4 /* UINavigationController+InteractivePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+InteractivePush.m"; sourceTree = "<group>"; };
 		B2E68F8528B7557200022EB4 /* MCCommonVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCommonVc.h; sourceTree = "<group>"; };
 		B2E68F8828B7557300022EB4 /* MCCommonVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCommonVc.m; sourceTree = "<group>"; };
+		B2E68FDA28B8BAC700022EB4 /* UIScrollView+XKEmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+XKEmptyDataSet.m"; sourceTree = "<group>"; };
+		B2E68FDB28B8BAC700022EB4 /* UIScrollView+XKEmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+XKEmptyDataSet.h"; sourceTree = "<group>"; };
+		B2E68FDC28B8BAC700022EB4 /* UIScrollView+XKEmptyConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+XKEmptyConfig.m"; sourceTree = "<group>"; };
+		B2E68FDD28B8BAC700022EB4 /* XKEmptyPlaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKEmptyPlaceView.h; sourceTree = "<group>"; };
+		B2E68FDE28B8BAC700022EB4 /* UIScrollView+XKEmptyConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+XKEmptyConfig.h"; sourceTree = "<group>"; };
+		B2E68FDF28B8BAC700022EB4 /* UIImage+Edit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Edit.m"; sourceTree = "<group>"; };
+		B2E68FE028B8BAC700022EB4 /* UIImage+Edit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Edit.h"; sourceTree = "<group>"; };
+		B2E68FE128B8BAC700022EB4 /* XKEmptyPlaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKEmptyPlaceView.m; sourceTree = "<group>"; };
 		BCB4C6419776972655868912 /* Pods-MCBaseUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCBaseUtils_Example.release.xcconfig"; path = "Target Support Files/Pods-MCBaseUtils_Example/Pods-MCBaseUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C52EA6F2686ADAE1FBCF076E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DF74DB20AFCB220515CEC8A8 /* Pods-MCBaseUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCBaseUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-MCBaseUtils_Tests/Pods-MCBaseUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -387,6 +399,7 @@
 		B2213F3D28A5E70800F27F51 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B2E68FD928B8BA9D00022EB4 /* MCBaseEmptyView */,
 				B22DAA7228AB7A610045DF35 /* MCScreenHeight */,
 				B22DA9DB28AB78980045DF35 /* MCTabBar */,
 				B22DA9DA28AB78840045DF35 /* MCObject */,
@@ -588,6 +601,21 @@
 				B22DA9CE28A65C070045DF35 /* MCColorMacro.h */,
 			);
 			path = MCMacro;
+			sourceTree = "<group>";
+		};
+		B2E68FD928B8BA9D00022EB4 /* MCBaseEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				B2E68FE028B8BAC700022EB4 /* UIImage+Edit.h */,
+				B2E68FDF28B8BAC700022EB4 /* UIImage+Edit.m */,
+				B2E68FDE28B8BAC700022EB4 /* UIScrollView+XKEmptyConfig.h */,
+				B2E68FDC28B8BAC700022EB4 /* UIScrollView+XKEmptyConfig.m */,
+				B2E68FDB28B8BAC700022EB4 /* UIScrollView+XKEmptyDataSet.h */,
+				B2E68FDA28B8BAC700022EB4 /* UIScrollView+XKEmptyDataSet.m */,
+				B2E68FDD28B8BAC700022EB4 /* XKEmptyPlaceView.h */,
+				B2E68FE128B8BAC700022EB4 /* XKEmptyPlaceView.m */,
+			);
+			path = MCBaseEmptyView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -800,9 +828,11 @@
 				B2B8DC2828A648D800DAA7F8 /* UIWindow+MCTopViewController.m in Sources */,
 				B22DAA4C28AB7A0C0045DF35 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
 				B22DAA5228AB7A0C0045DF35 /* CYLBaseViewController.m in Sources */,
+				B2E68FE528B8BAC700022EB4 /* XKEmptyPlaceView.m in Sources */,
 				B22DAA5028AB7A0C0045DF35 /* CYLTabBar+CYLTabBarControllerExtention.m in Sources */,
 				B22DAA0428AB78CB0045DF35 /* NSArray+MCError.m in Sources */,
 				6003F59E195388D20070C39A /* MCAppDelegate.m in Sources */,
+				B2E68FE328B8BAC700022EB4 /* UIScrollView+XKEmptyConfig.m in Sources */,
 				B22DAA0528AB78CB0045DF35 /* UIButton+MCGradient.m in Sources */,
 				B22DAA4F28AB7A0C0045DF35 /* UIColor+CYLTabBarControllerExtention.m in Sources */,
 				B22DAA0928AB78CB0045DF35 /* UIColor+MCHex.m in Sources */,
@@ -824,6 +854,7 @@
 				B22DAA7828AB7A710045DF35 /* MCScreenHeightInfo.m in Sources */,
 				B22DAA5828AB7A0C0045DF35 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
 				B22DAA0E28AB78CB0045DF35 /* UIImage+MCFileName.m in Sources */,
+				B2E68FE228B8BAC700022EB4 /* UIScrollView+XKEmptyDataSet.m in Sources */,
 				B22DAA7728AB7A710045DF35 /* MCCustomNavigationBar.m in Sources */,
 				B2E68F8A28B7557300022EB4 /* MCCommonVc.m in Sources */,
 				B22DAA4D28AB7A0C0045DF35 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
@@ -842,6 +873,7 @@
 				B2213F6028A6380000F27F51 /* NSDictionary+MCNullSafeCategory.m in Sources */,
 				B22DAA5628AB7A0C0045DF35 /* UIBarButtonItem+CYLBadgeExtention.m in Sources */,
 				B2E68F8028B754E100022EB4 /* UIViewController+RTRootNavigationController.m in Sources */,
+				B2E68FE428B8BAC700022EB4 /* UIImage+Edit.m in Sources */,
 				B22DAA1228AB78CB0045DF35 /* UIImage+MCColor.m in Sources */,
 				B22DAA1128AB78CB0045DF35 /* NSMutableString+MCError.m in Sources */,
 				B22DAA2028AB79DC0045DF35 /* MCEmptyView.m in Sources */,

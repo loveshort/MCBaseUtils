@@ -53,6 +53,11 @@
 #import "MCCategory.h"
 #endif
 /* UI */
+
+#if __has_include("XKEmptyPlaceView.h")
+#import "XKEmptyPlaceView.h"
+#endif
+
 #if __has_include("MCMacroDefine.h")
 #import "MCMacroDefine.h"
 #endif
@@ -173,9 +178,6 @@
 #if __has_include("MCSkin.h")
 #import "MCSkin.h"
 #endif
-
-
-
 
 #endif
 
