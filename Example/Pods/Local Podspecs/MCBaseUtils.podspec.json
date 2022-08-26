@@ -16,7 +16,7 @@
     "tag": "5.0.2"
   },
   "platforms": {
-    "ios": null
+    "ios": "13.0"
   },
   "swift_versions": "5.0",
   "source_files": "MCBaseUtils/Classes/**/*",

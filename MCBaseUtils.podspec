@@ -34,7 +34,7 @@ TODO: Swift版本 第一版，上传到spec里面，后面开始加载代码内�
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
-  s.platform = :ios
+  s.platform = :ios, "13.0"
   s.swift_version = '5.0'
   s.source_files = 'MCBaseUtils/Classes/**/*'
   
