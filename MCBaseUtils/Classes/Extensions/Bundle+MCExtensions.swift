@@ -11,17 +11,17 @@ import Foundation
  extension Bundle {
     
     /// Bundle Identifier
-    open var identifier: String {
+     public var identifier: String {
         return infoDictionary?["CFBundleIdentifier"] as? String ?? ""
     }
     
     /// Bundle 版本号
-    open var version: String {
+     public var version: String {
         return infoDictionary?["CFBundleShortVersionString"] as? String ?? "0"
     }
 
     /// Bundle Build 号
-    open var build: String {
+     public var build: String {
         return infoDictionary?["CFBundleVersion"] as? String ?? "0"
     }
     

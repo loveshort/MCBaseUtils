@@ -22,7 +22,6 @@
 		B2E68FAC28B788DE00022EB4 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E68FAB28B788DE00022EB4 /* Path.swift */; };
 		B2E68FB128B86E3300022EB4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2E68FB328B86E3300022EB4 /* Localizable.strings */; };
 		B2E68FB828B86E8D00022EB4 /* Bundle+MCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E68FB728B86E8D00022EB4 /* Bundle+MCExtensions.swift */; };
-		B2E68FBA28B86EC700022EB4 /* Date+MCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E68FB928B86EC700022EB4 /* Date+MCExtensions.swift */; };
 		B2E68FBC28B86F1000022EB4 /* Dispatch+MCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E68FBB28B86F1000022EB4 /* Dispatch+MCExtensions.swift */; };
 		B2E68FBE28B86F6C00022EB4 /* Numbers+MCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E68FBD28B86F6C00022EB4 /* Numbers+MCExtensions.swift */; };
 		B2E68FC028B8703E00022EB4 /* String+MCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E68FBF28B8703E00022EB4 /* String+MCExtensions.swift */; };
@@ -83,7 +82,6 @@
 		B2E68FB428B86E3600022EB4 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B2E68FB528B86E3800022EB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B2E68FB728B86E8D00022EB4 /* Bundle+MCExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+MCExtensions.swift"; sourceTree = "<group>"; };
-		B2E68FB928B86EC700022EB4 /* Date+MCExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+MCExtensions.swift"; sourceTree = "<group>"; };
 		B2E68FBB28B86F1000022EB4 /* Dispatch+MCExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dispatch+MCExtensions.swift"; sourceTree = "<group>"; };
 		B2E68FBD28B86F6C00022EB4 /* Numbers+MCExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Numbers+MCExtensions.swift"; sourceTree = "<group>"; };
 		B2E68FBF28B8703E00022EB4 /* String+MCExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+MCExtensions.swift"; sourceTree = "<group>"; };
@@ -245,7 +243,6 @@
 			isa = PBXGroup;
 			children = (
 				B2E68FB728B86E8D00022EB4 /* Bundle+MCExtensions.swift */,
-				B2E68FB928B86EC700022EB4 /* Date+MCExtensions.swift */,
 				B2E68FBB28B86F1000022EB4 /* Dispatch+MCExtensions.swift */,
 				B2E68FBD28B86F6C00022EB4 /* Numbers+MCExtensions.swift */,
 				B2E68FBF28B8703E00022EB4 /* String+MCExtensions.swift */,
@@ -469,7 +466,6 @@
 				B2E68FA328B783BD00022EB4 /* MCKeyBoardPlaceHoder.swift in Sources */,
 				B2E68FA628B7879000022EB4 /* MCErrors.swift in Sources */,
 				B2E68FCC28B8765600022EB4 /* UINavigationController+MCExtensions.swift in Sources */,
-				B2E68FBA28B86EC700022EB4 /* Date+MCExtensions.swift in Sources */,
 				B2E68FC628B873E900022EB4 /* UIColor+MCExtensions.swift in Sources */,
 				B2E68FA828B787EF00022EB4 /* FileAttribute.swift in Sources */,
 				B2E68FBC28B86F1000022EB4 /* Dispatch+MCExtensions.swift in Sources */,

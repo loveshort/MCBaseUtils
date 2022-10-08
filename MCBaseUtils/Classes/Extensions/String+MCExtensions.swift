@@ -34,46 +34,47 @@ public extension String {
 
 // MARK: - 拼音
 
-public extension String {
-    
-    /// 拼音的类型
-    enum PinyinType {
-        case normal         // 默认类型，不带声调
-        case withTone       // 带声调的拼音
-        case firstLetter    // 拼音首字母
-    }
-    
-    func pinyin(_ type: PinyinType = .normal) -> String {
-        switch type {
-        case .normal:
-            return normalPinyin()
-        case .withTone:
-            return pinyinWithTone()
-        case .firstLetter:
-            return pinyinFirstLetter()
-        }
-    }
-    
-    private func pinyinWithTone() -> String {
-        //转换为带声调的拼音
-        let nameRef = CFStringCreateMutableCopy(nil, 0, self as CFString)
-        CFStringTransform(nameRef, nil, kCFStringTransformMandarinLatin, false)
-        return nameRef! as String
-    }
-    
-    private func normalPinyin() -> String {
-        //去除声调
-        let nameRef = CFStringCreateMutableCopy(nil, 0, self as CFString)
-        CFStringTransform(nameRef, nil, kCFStringTransformMandarinLatin, false)
-        CFStringTransform(nameRef, nil, kCFStringTransformStripDiacritics, false)
-        return nameRef! as String
-    }
-        
-    private func pinyinFirstLetter() -> String {
-        let pinyinString = pinyin() as NSString
-        return pinyinString.substring(to: 1)
-    }
-}
+//public extension String {
+//
+//    /// 拼音的类型
+//    enum PinyinType {
+//        case normal         // 默认类型，不带声调
+//        case withTone       // 带声调的拼音
+//        case firstLetter    // 拼音首字母
+//    }
+//
+//
+//    func pinyin(_ type: PinyinType = .normal) -> String {
+//        switch type {
+//        case .normal:
+//            return normalPinyin()
+//        case .withTone:
+//            return pinyinWithTone()
+//        case .firstLetter:
+//            return pinyinFirstLetter()
+//        }
+//    }
+//
+//    private func pinyinWithTone() -> String {
+//        //转换为带声调的拼音
+//        let nameRef = CFStringCreateMutableCopy(nil, 0, self as CFString)
+//        CFStringTransform(nameRef, nil, kCFStringTransformMandarinLatin, false)
+//        return nameRef! as String
+//    }
+//
+//    private func normalPinyin() -> String {
+//        //去除声调
+//        let nameRef = CFStringCreateMutableCopy(nil, 0, self as CFString)
+//        CFStringTransform(nameRef, nil, kCFStringTransformMandarinLatin, false)
+//        CFStringTransform(nameRef, nil, kCFStringTransformStripDiacritics, false)
+//        return nameRef! as String
+//    }
+//
+//    private func pinyinFirstLetter() -> String {
+//        let pinyinString = pinyin() as NSString
+//        return pinyinString.substring(to: 1)
+//    }
+//}
 
 // MARK: - Base64
 public extension String {

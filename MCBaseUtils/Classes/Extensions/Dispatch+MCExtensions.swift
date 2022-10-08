@@ -8,21 +8,25 @@
 
 import Foundation
 
+
+//延时当前时间开始 -- 不同版本写法
+
 public extension DispatchQueue {
     
-    public func asyncAfter(delay: DispatchTimeInterval, execute work: @escaping @convention(block) () -> Swift.Void) {
+    
+    func asyncAfter(delay: DispatchTimeInterval, execute work: @escaping @convention(block) () -> Swift.Void) {
         asyncAfter(deadline: .now() + delay, execute: work)
     }
     
-    public func asyncAfter(delay seconds: TimeInterval, execute work: @escaping @convention(block) () -> Swift.Void) {
+    func asyncAfter(delay seconds: TimeInterval, execute work: @escaping @convention(block) () -> Swift.Void) {
         asyncAfter(deadline: .now() + seconds, execute: work)
     }
 
-    public func asyncAfter(delay: DispatchTimeInterval, execute: DispatchWorkItem) {
+    func asyncAfter(delay: DispatchTimeInterval, execute: DispatchWorkItem) {
         asyncAfter(deadline: .now() + delay, execute: execute)
     }
     
-    public func asyncAfter(delay seconds: TimeInterval, execute: DispatchWorkItem) {
+    func asyncAfter(delay seconds: TimeInterval, execute: DispatchWorkItem) {
         asyncAfter(deadline: .now() + seconds, execute: execute)
     }
 }
